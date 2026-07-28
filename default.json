@@ -1,0 +1,32 @@
+{
+  "Name": "Russia",
+  "GlobalProxy": "true",
+  "RouteOrder": "proxy-direct-block",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "",
+  "RemoteDNSIP": "",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "",
+  "DomesticDNSIP": "",
+  "Geoipurl": "https://buoy-sub.xyz/geoip.dat",
+  "Geositeurl": "https://buoy-sub.xyz/geosite.dat",
+  "LastUpdated": "1902588023",
+  "DnsHosts": {
+    "example.com": "1.2.3.4",
+    "test.org": "8.8.8.8"
+  },
+  "DirectSites": [
+    "geosite:category-ip-geo-detect",
+    "geosite:category-ecommerce-ru"
+  ],
+  "DirectIp": [
+    "geoip:direct"
+  ],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "UseChunkFiles": "true"
+}
