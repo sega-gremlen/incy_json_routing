@@ -17,7 +17,8 @@
   },
   "DirectSites": [
     "geosite:category-ip-geo-detect",
-    "geosite:category-ecommerce-ru"
+    "geosite:category-ecommerce-ru",
+    "geosite:category-ru"
   ],
   "DirectIp": [
     "geoip:direct"
